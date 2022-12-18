@@ -2,9 +2,10 @@
   "name": "real-time-chat-app",
   "version": "1.0.0",
   "description": "chat app where multiple users can chat together and messages get updated without refreshing the page",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev":"nodemon server"
   },
   "repository": {
     "type": "git",
